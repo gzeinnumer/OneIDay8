@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(Call<List<ResponseUserItem>> call, Response<List<ResponseUserItem>> response) {
                         Log.d("Zeintext", "onResponse: "+response.body().size());
                         Log.d("Zeintext", "onResponse: "+response.body().get(0).getBody());
+
                     }
 
                     @Override
